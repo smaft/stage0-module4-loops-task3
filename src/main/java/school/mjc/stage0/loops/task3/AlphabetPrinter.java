@@ -4,7 +4,7 @@ public class AlphabetPrinter {
     public void printAlphabet() {
         char ch; 
         for(ch = 'a'; ch <= 'z'; ch++){
-            System.out.print(ch + " ");
+            System.out.println(ch );
         } 
     }
 }

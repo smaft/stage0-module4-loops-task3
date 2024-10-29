@@ -6,13 +6,13 @@ public class FibonacciSeries {
 		int secondNumber = 1;
 		int fibonacci ;
 
-		System.out.print(firstNumber );
-		System.out.print(secondNumber );
+		System.out.println(firstNumber );
+		System.out.println(secondNumber );
 
 		for (int i = 2; i < lastFibonacci; i++) {
 
 			fibonacci = firstNumber + secondNumber;
-			System.out.print(fibonacci );
+			System.out.println(fibonacci );
 
 			firstNumber = secondNumber;
 			secondNumber = fibonacci;
