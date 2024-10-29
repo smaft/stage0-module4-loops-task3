@@ -10,6 +10,6 @@ public class DigitsSum {
         number=Character.getNumericValue(character);
         sum=sum+number;
     }
-    System.out.println("Sum of digits of Entered Number:"+sum);
+    System.out.println(sum);
     }
 }
